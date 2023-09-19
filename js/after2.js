@@ -68,7 +68,7 @@ class Item {
     for (const itemDelJuego of inventario) {
       const li = `
       <li onclick="vender('${itemDelJuego.nombre}')">
-        <img src="${itemDelJuego.imagen}" alt="${itemDelJuego.imagen}" />
+        <img src="./img/${itemDelJuego.imagen}" alt="${itemDelJuego.imagen}" />
       </li>
       `;
       // Va a ir concatenando los li creados en el elemento #inventario (ul)
